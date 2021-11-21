@@ -1,0 +1,38 @@
+#size::before {
+    content: "mobiel ";
+}
+
+body {
+    background-color: honeydew;
+}
+
+@media screen and (min-width:480px) {
+    #size::before {
+        content: "tablet ";
+    }
+}
+
+@media screen and (min-width:768px) {
+    #size::before {
+        content: "klein ";
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #size::before {
+        content: "groot ";
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #size::before {
+        content: "extra groot ";
+    }
+}
+
+@media screen and (orientation:landscape) {
+    body {
+        color: white;
+        background-color: orangered;
+    }
+}
