@@ -6,7 +6,6 @@
    }
 
    h1 {
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      text-align: center;
      font-weight: normal;
      color: rgb(67, 173, 235);
@@ -27,7 +26,7 @@
      border: 2px solid lightskyblue;
    }
 
-   @media screen and (min-width:701px) {
+   @media screen and (min-width:700px) {
      article {
        display: flex;
        flex-wrap: wrap;

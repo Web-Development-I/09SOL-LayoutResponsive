@@ -1,31 +1,39 @@
-#size::before {
+#grootte::before {
     content: "mobiel ";
 }
 
 body {
+    display: flex;
+    height: 100vh;
+    font-size: 1.2em;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: honeydew;
 }
 
+p {
+    margin: auto;
+}
+
 @media screen and (min-width:480px) {
-    #size::before {
+    #grootte::before {
         content: "tablet ";
     }
 }
 
 @media screen and (min-width:768px) {
-    #size::before {
+    #grootte::before {
         content: "klein ";
     }
 }
 
 @media screen and (min-width:1024px) {
-    #size::before {
+    #grootte::before {
         content: "groot ";
     }
 }
 
 @media screen and (min-width:1200px) {
-    #size::before {
+    #grootte::before {
         content: "extra groot ";
     }
 }
