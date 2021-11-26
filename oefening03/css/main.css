@@ -82,13 +82,13 @@ footer nav div ul {
 .box2,
 .box3 {
   display: none;
-  text-align: center;
 }
 
 /* OPLOSSING */
 @media screen and (min-width:720px) {
   .box2 {
     display: block;
+    text-align: center;
   }
 }
 
@@ -99,5 +99,6 @@ footer nav div ul {
 
   .box3 {
     display: block;
+    text-align: center;
   }
 }
