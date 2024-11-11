@@ -3,7 +3,7 @@
 }
 
 body {
-    display: flex;
+    display: block flex;
     height: 100vh;
     font-size: 1.2em;
     font-family: 'Calibri', 'Trebuchet MS', sans-serif;

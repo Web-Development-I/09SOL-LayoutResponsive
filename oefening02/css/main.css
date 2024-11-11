@@ -12,7 +12,7 @@ nav {
 }
 
 #container {
-  display: grid;
+  display: block grid;
   gap: 10px;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr;
@@ -28,7 +28,7 @@ header {
 
 #score {
   grid-area: score;
-  display: grid;
+  display: block grid;
   align-items: center;
   justify-items: center;
 }

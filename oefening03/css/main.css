@@ -25,7 +25,7 @@ h3 {
 /*****************/
 
 .fotos {
-  display: flex;
+  display: block flex;
   flex-wrap: wrap;
 }
 
@@ -62,7 +62,7 @@ footer nav li a {
 /* ************************* */
 
 footer nav {
-  display: flex;
+  display: block flex;
   justify-content: space-between;
 }
 
@@ -71,7 +71,7 @@ footer nav div {
 }
 
 footer nav div ul {
-  display: flex;
+  display: block flex;
   flex-direction: column;
 }
 
