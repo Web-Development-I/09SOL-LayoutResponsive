@@ -118,7 +118,7 @@ input[type='submit'] {
 /* responsive nav */
 nav ul {
   padding: 0;
-  display: flex;
+  display: block flex;
   flex-wrap: wrap;
 }
 
@@ -165,7 +165,7 @@ textarea {
 
   /* Adjust 'over_ons.html' */
   #over_ons {
-    display: grid;
+    display: block grid;
     padding-right: 20px;
     grid-template-columns: 1fr min-content;
     gap: 10px;
@@ -178,7 +178,7 @@ textarea {
 
   /* Adjust 'contact.html' */
   #contact-page {
-    display: grid;
+    display: block grid;
     gap: 1em;
     grid-template-columns: 1fr 1fr;
   }
@@ -189,7 +189,7 @@ textarea {
 
   /* Adjust 'realisaties.html' */
   #fotos_realisaties {
-    display: grid;
+    display: block grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
